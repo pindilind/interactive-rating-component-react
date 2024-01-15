@@ -1,50 +1,31 @@
 
 import './App.css';
+import ActionButtons from './components/buttons.js';
+import Button from '@mui/material/Button';
 
 function App() {
+
   return (
-
-    <div>
-    <div className="App">
-
-      SKRIV HÄR
+  
+        <div class="qrDiv">
       
-      Feel free to remove these styles or customise in your own stylesheet 👍 
- 
-    .attribution fontSize: 11px; text-align: center; 
-    .attribution a  color: hsl(228, 45%, 44%); 
+          <div class="textDiv">
+            
+            <div class="qrDivTextOne">
+              How did we do?
+            </div>
+
+            <div class="qrDivTextTwo">
+            Please let us know how we did with your support request. Allfeedback is appreciated to help us improve our offering!
+            </div>
+            <ActionButtons/>
+            <Button variant="contained">Contained</Button>
+          </div>
+
+        </div>
+
+      
   
-   Rating state start 
-
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
-  Rating state end 
-
-Thank you state start
-
-  You selectedAdd rating here out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-   Thank you state end -
-
-  
-  
-    
-  
-
-    </div>
-    </div>
   );
 }
 
